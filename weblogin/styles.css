@@ -1,0 +1,97 @@
+/* General Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Main Container */
+.container {
+    background-color: #0f0f0f; /* Dark gray for contrast */
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1); /* Subtle white shadow */
+    width: 300px;
+    text-align: center;
+}
+/* Header Styles */
+h2 {
+    color: #ffffff; /* White text for headers */
+}
+/* Input Group Style */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label {
+    font-size: 14px;
+    color: #cccccc; /* Light gray for labels */
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #333333; /* Darker gray border */
+    border-radius: 4px;
+    background-color: #1e1e1e; /* Match container color */
+    color: #ffffff; /* White text for inputs */
+}
+.input-group input:focus {
+    border-color: #ff0000; /* Red border on focus */
+    outline: none;
+}
+/* Button Styles */
+.btn {
+    background-color: #ff0000; /* Red button */
+    color: #ffffff; /* White text for buttons */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Link Styles */
+.link {
+    color: #ff0000; /* Red links */
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #cc0000; /* Darker red on hover */
+}
+
+/* Success Page Specific Style */
+.success-container {
+    text-align: center;
+    color: #ffffff; /* White text for success page */
+}
+
+.success-container p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+/* Center Align Actions */
+.actions {
+    margin-top: 15px;
+}
+
+.actions a {
+    margin-top: 5px;
+}
+
+
+
